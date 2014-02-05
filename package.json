@@ -1,0 +1,14 @@
+{
+    "name": "grunt-protoc",
+    "version": "0.0.1",
+    "description": "protoc generator plugin",
+    "keywords": [
+        "gruntplugin"
+    ],
+    "peerDependencies": {
+        "grunt": "~0.4"
+    },
+    "devDependencies": {
+        "grunt": "~0.4"
+    }
+}
