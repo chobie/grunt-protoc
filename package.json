@@ -1,14 +1,32 @@
 {
-    "name": "grunt-protoc",
-    "version": "0.0.1",
-    "description": "protoc generator plugin",
-    "keywords": [
-        "gruntplugin"
-    ],
-    "peerDependencies": {
-        "grunt": "~0.4"
-    },
-    "devDependencies": {
-        "grunt": "~0.4"
-    }
+  "name": "grunt-protoc",
+  "version": "0.0.1",
+  "description": "protoc generator plugin",
+  "keywords": [
+    "gruntplugin"
+  ],
+  "peerDependencies": {
+    "grunt": "~0.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4"
+  },
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chobie/grunt-protoc.git"
+  },
+  "author": "Shuhei Tanuma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chobie/grunt-protoc/issues"
+  },
+  "homepage": "https://github.com/chobie/grunt-protoc"
 }
