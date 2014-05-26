@@ -23,6 +23,11 @@ protoc generator task
                 proto: ["*.proto"],
                 includes: ["."],
                 output: "cpp"
+            },
+            descriptor_set: {
+                proto: ["*.proto"],
+                output: "protos.desc",
+                include_path: "includeDir"
             }
         }
 ````

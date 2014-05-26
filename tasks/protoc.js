@@ -24,6 +24,7 @@ module.exports = function (grunt) {
             , plugin = data.plugin
             , output = data.output
             , includes = data.includes
+            , include_path = data.include_path
             ;
 
         proto = _.isArray(proto) ? proto : [proto];
@@ -34,6 +35,11 @@ module.exports = function (grunt) {
         if (!_.isUndefined(plugin)) {
             command  = command + " --plugin=" + plugin;
         }
+
+        if (!_.isEmpty(include_path)) {
+          command  = command + " --include_imports=" + include_path;
+        }
+
         command  = command + " " + proto
 
 
